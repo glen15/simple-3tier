@@ -6,7 +6,7 @@ const db = require('./db/connection');
 
 const app = express();
 app.use(express.json());
-const port = 80;
+const port = 8000;
 
 app.use(
   cors({
