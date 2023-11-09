@@ -1,0 +1,50 @@
+.form-container {
+  width: 480px;
+  height: 320px;
+  background-color: #f5f5f5; /* 변경된 배경색 */
+  color: #333333; /* 변경된 기본 텍스트 색상 */
+  margin-bottom: 50px;
+}
+
+input[type='text'],
+input[type='password'] {
+  box-sizing: border-box;
+  outline: none;
+  width: 80%;
+  padding: 8px;
+  font-size: 24px;
+  color: #333333; /* 변경된 기본 텍스트 색상 */
+}
+
+.form-items {
+  width: 480px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.login {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #333333; /* 변경된 기본 텍스트 색상 */
+}
+
+button[type='submit'] {
+  box-sizing: border-box;
+  width: 80%;
+  outline: none;
+  padding: 8px;
+  border-radius: 1px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  border-color: #e57373; /* 변경된 실패 메시지 색상 (예시로 적용) */
+  background-color: #e57373; /* 변경된 실패 메시지 색상 (예시로 적용) */
+  color: white;
+  cursor: pointer;
+}
